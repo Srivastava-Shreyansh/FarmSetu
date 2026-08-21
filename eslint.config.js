@@ -1,0 +1,1 @@
+﻿import reactPlugin from "eslint-plugin-react"; export default [{languageOptions: {globals: {document: "readonly", window: "readonly", console: "readonly", setTimeout: "readonly", alert: "readonly"}, parserOptions: {ecmaFeatures: {jsx: true}}}, plugins: {react: reactPlugin}, files: ["**/*.jsx", "**/*.js"], rules: {"no-undef": "error", "react/jsx-no-undef": "error"}}];
