@@ -395,14 +395,14 @@ export function FarmerCard({
           </div>
         </div>
         <div className="p-3.5">
-          <div className="flex items-center gap-2 -mt-6 mb-2">
+          <div className="flex items-center gap-2 mb-2">
             <img
               src={`https://images.unsplash.com/${farmer.image}?w=64&h=64&fit=crop&auto=format`}
               alt={farmer.name}
-              className="w-10 h-10 rounded-full object-cover border-2 border-white shadow-md flex-shrink-0 bg-white"
+              className="w-10 h-10 rounded-full object-cover border border-earth shadow-sm flex-shrink-0 bg-white"
             />
 
-            <p className="font-bold text-sm text-foreground leading-tight truncate mt-4">
+            <p className="font-bold text-sm text-foreground leading-tight truncate">
               {farmer.name}
             </p>
           </div>
