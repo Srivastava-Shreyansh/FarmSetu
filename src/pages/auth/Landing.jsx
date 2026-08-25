@@ -291,7 +291,7 @@ export default function Landing({ roles, onRoleSelect }) {
 
         <div className="relative mx-auto flex max-w-6xl flex-col">
           {/* Header Navigation Bar */}
-          <header data-hero-reveal className="flex items-center justify-between border-b border-white/15 pb-6">
+          <header data-hero-reveal className="flex flex-wrap items-center justify-between gap-4 sm:gap-6 border-b border-white/15 pb-6">
             <button
               type="button"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
