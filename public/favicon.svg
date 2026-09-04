@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Rounded Card Base for clear visibility on both light and dark browser themes -->
+  <rect x="20" y="20" width="472" height="472" rx="108" fill="#F8FAF7" stroke="#DDE7DD" stroke-width="8" />
+  
+  <!-- Bridge Arches ("Setu") -->
+  <g fill="none" stroke="#1B4332" stroke-width="28" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left arch -->
+    <path d="M 148 296 C 152 242, 218 242, 222 296" />
+    <!-- Right arch -->
+    <path d="M 222 296 C 226 242, 292 242, 296 296" />
+    <!-- Bridge backbone span -->
+    <path d="M 124 300 C 138 214, 306 214, 320 300" />
+  </g>
+  
+  <!-- Organic Leaf -->
+  <path d="M 146 294 C 136 190, 212 134, 326 130 C 332 208, 264 290, 146 294 Z" 
+        fill="#2EA043" 
+        fill-opacity="0.18" 
+        stroke="#238636" 
+        stroke-width="26" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+  
+  <!-- Central Leaf Vein -->
+  <path d="M 166 280 Q 236 240 326 130" 
+        fill="none" 
+        stroke="#238636" 
+        stroke-width="20" 
+        stroke-linecap="round" />
+  
+  <!-- Branch Veins -->
+  <path d="M 230 238 Q 262 206 292 200" 
+        fill="none" 
+        stroke="#238636" 
+        stroke-width="15" 
+        stroke-linecap="round" />
+
+  <!-- FarmSetu Brand Wordmark -->
+  <text x="256" y="408" 
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" 
+        font-size="62" 
+        font-weight="800" 
+        text-anchor="middle" 
+        letter-spacing="-1">
+    <tspan fill="#238636">Farm</tspan><tspan fill="#1B4332">Setu</tspan>
+  </text>
+</svg>
